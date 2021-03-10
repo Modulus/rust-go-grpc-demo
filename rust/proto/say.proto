@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package say;
+
+service Sayer {
+    rpc Send(SayerRequest) returns (SayerResponse);
+}
+
+message SayerRequest {
+    string name = 1;
+    string comment = 2;
+}
+
+message SayerResponse {
+    string message = 1;
+    string comment = 2;
+    int32 id = 3;
+}
