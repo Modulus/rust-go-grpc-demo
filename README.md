@@ -12,10 +12,12 @@ cargo run --bin client
 
 
 # Python
+```
 pipenv install
+
 pipenv shell
 
 python server.py
 
 python client.py
-
+```
