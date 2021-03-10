@@ -1,5 +1,9 @@
 
-# Install rust grpc-compiler
-cargo install grpc-compiler
+# Build
+cargo build
 
-# Create rust stubs
+# Run server
+cargo run --bin server
+
+# Run client
+cargo run --bin client
